@@ -1,0 +1,27 @@
+const myMusic = [
+  {
+    "artist": "Billy Joel",
+    "title": "Piano Man",
+    "release_year": 1973,
+    "formats": [
+      "CD",
+      "8T",
+      "LP"
+    ],
+    "gold": true
+  }
+];
+
+const newAlbum = {
+  "artist": "Music Person",
+  "title": "Cool Album",
+  "release_year": 2022,
+  "formats":[
+    "CD",
+    "MP3",
+    "Sportify"
+  ]
+}
+myMusic.push(newAlbum);
+
+console.log(myMusic);

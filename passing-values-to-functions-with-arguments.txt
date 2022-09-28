@@ -1,0 +1,4 @@
+function functionWithArgs(Fadesere, David){console.log(Fadesere + David);
+}
+
+functionWithArgs(8, 5);
